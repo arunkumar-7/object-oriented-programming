@@ -15,15 +15,7 @@ public class Main {
         product1.isAvailable = true;
         product1.company = "Dell";
         product1.category = "Laptop";
-        System.out.println("id:" + product1.id);
-        System.out.println("Name:" + product1.name);
-        System.out.println("MRP:" + product1.maxRetailPrice);
-        System.out.println("Rating:" + product1.rating);
-        System.out.println("reviews:" + product1.reviewsCount);
-        System.out.println("Discount:" + product1.discountPercentage + "%");
-        System.out.println("is Stock Available:" + product1.isAvailable);
-        System.out.println("Company:" + product1.company);
-        System.out.println("Category:" + product1.category);
+        product1.displayProductDetails();
 
         Product product2 = new Product();
         System.out.println("---------------------------------------------------------------------------------");
@@ -38,15 +30,7 @@ public class Main {
         product2.isAvailable = true;
         product2.company = "Google";
         product2.category = "Mobile Phones";
-        System.out.println("id:" + product2.id);
-        System.out.println("Name:" + product2.name);
-        System.out.println("MRP:" + product2.maxRetailPrice);
-        System.out.println("Rating:" + product2.rating);
-        System.out.println("reviews:" + product2.reviewsCount);
-        System.out.println("Discount:" + product2.discountPercentage + "%");
-        System.out.println("is Stock Available:" + product2.isAvailable);
-        System.out.println("Company:" + product2.company);
-        System.out.println("Category:" + product2.category);
+        product2.displayProductDetails();
 
         Customer customer = new Customer();
         System.out.println("----------------------------------------------------------------------------------");
