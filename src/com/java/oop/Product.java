@@ -11,6 +11,10 @@ public class Product {
     String company;
     String category;
 
+    public Product(){
+
+    }
+
     public Product(int id, String name, long maxRetailPrice, float rating, int reviewsCount, byte discountPercentage, boolean isAvailable, String company, String category) {
         this.id = id;
         this.name = name;
